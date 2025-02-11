@@ -4,5 +4,7 @@ Update the patients table for the allergies column. If the patient's allergies i
 Answer:- 
 
 UPDATE patients
+
 SET allergies = 'NKA'
+
 WHERE allergies IS NULL;
